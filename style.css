@@ -1,0 +1,59 @@
+
+/*
+#countLable{
+  display: block;
+  text-align: center;
+  font-size: 10em;
+  font-family: Helvetica;
+}
+
+#btncontainer{
+  text-align: center;
+
+}
+
+.buttons{
+  padding: 10px 12px;
+  font-size: 1.5em;
+  color: white;
+  background-color: hsl(240, 75%, 60%);
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.25s;
+}
+
+.buttons:hover{
+  background-color: hsl(240, 83%, 24%);
+}
+  */
+
+
+   body{
+    background-image: linear-gradient(to right,red,yellow,pink);
+   }
+  .container{
+    border: 1px black solid;
+    text-align: center;
+    padding: 15px 15px;
+    margin-top: 5%;
+    background-color: white;
+    box-shadow: 5px 1px 5px 1px  ;
+  }
+  .container #label1 ,#label2 , #label3{
+    font-size: 35px;
+    font-weight: bold;
+    display: inline-block;
+    margin-bottom: 3%;
+  }
+  #submit{
+    font-size: 20px;
+    border-radius: 5px;
+    background-color: rgb(150, 59, 235);
+    color: white;
+  }
+  #submit:hover{
+    background-color: rgb(56, 17, 94);
+  }
+  #submit:active{
+    background-color: rgb(197, 153, 238);
+  }
